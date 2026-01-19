@@ -1,2 +1,2 @@
 # student-performance-prediction-ml
-machine learning-based student performance prediction system
+An end-to-end data science and machine learning project designed to predict student academic performance. This system uses historical student data including subject marks, attendance percentage, and daily study hours to classify students as Pass or Fail. The project covers the full ML pipeline: data cleaning, exploratory data analysis (EDA), feature engineering, train-test splitting, model training with Logistic Regression, and performance evaluation using accuracy, confusion matrix, and classification metrics.
