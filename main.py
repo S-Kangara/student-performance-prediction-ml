@@ -1,8 +1,9 @@
 import csv
+import pandas as pd
 
 students = []
 
-with open("student_data.csv" , "r") as file:
+with open("C:/Users/Sathsarani Kangara/Desktop/MY FOLDER/projects/python/student_data.csv" , "r") as file:
     reader = csv.DictReader(file)
     for row in reader:
         students.append(row)
@@ -16,3 +17,8 @@ def result(math, english, attendence):
         return "fail..."
     
 print(students[0])
+
+df = pd.read_csv("student_data.csv")
+
+print(df.head())
+print(df.describe())
